@@ -3,10 +3,13 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
 
 .cabeçalho{
-    background-color: #424E61;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content:space-around;
     align-self: center;
@@ -14,11 +17,64 @@
 }
 
 .cabeçalho-imagem{
-    width: 25%;
+    width: 15%;
 }
 
 .cabeçalho-lista-item{
     display: inline-block;
     margin: 0 16px;
     font-size: 16px;
+}
+
+.série-imagem{
+    width: 30%;
+}
+
+.X-Men{
+    background-image:linear-gradient(#1c2f4e,#000);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.x-men-div-conteudo{
+    width: 35%;
+}
+
+.X-men-titulo{
+    padding: 24px 0;
+}
+
+.personagem-imagem{
+    width: 120px;
+}
+
+.personagem-icone{
+    width: 24px;
+}
+
+.personagem-div{
+    text-align:center;
+}
+
+.personagem-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.personagem-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodapé{
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
 }
